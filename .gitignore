@@ -13,6 +13,21 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# === Visual Studio / compiled output (very important) ===
+KKBP_Exporter/bin/
+KKBP_Exporter/obj/
+KKBP_Exporter/*.csproj.user
+KKBP_Exporter/*.csproj.DotSettings.user
+
+# === Your local release holding area (never commit pre-built zips or DLLs) ===
+/releases/
+/bin/
+/obj/
+*.zip
+*.7z
+*.rar
+
+# (the rest of the original .gitignore can stay as-is)
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
